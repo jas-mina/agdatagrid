@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Publisher GRID POC</title>
+    <style media="only screen">
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      html {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0;
+        overflow: auto;
+      }
+
+      body {
+        padding: 1rem;
+        overflow: auto;
+      }
+    </style>
+    <script src="https://unpkg.com/ag-grid-enterprise/dist/ag-grid-enterprise.min.js"></script>
+    <script src="groupRowInnerRenderer.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div
+      id="publisherGrid"
+      style="height: 100%; width: 100%"
+      class="ag-theme-alpine"
+    ></div>
+  </body>
+</html>
