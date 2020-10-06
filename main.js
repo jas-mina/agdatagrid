@@ -16,7 +16,7 @@ StatusCellRenderer.prototype.init = function (params) {
 
     if (statusCode) {
       html +=
-        '<img class="flag" border="0" width="20" height="15" src="' +
+        '<img class="flag" border="0" width="48" height="24" src="' +
         statusCode +
         '.png">';
     }
